@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-dark: #1f2220; /* Taking cue from the green tint in the statue image */
+  --text-white: #ffffff;
+  --text-gray: #a1a1aa;
+  --accent-orange: #ff5722;
+  --font-main: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root, .app-container {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+}
+
+
+/* Base utility classes */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
