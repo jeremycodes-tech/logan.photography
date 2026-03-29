@@ -2774,6 +2774,7 @@
 
   /* GALLERY -> VERTICAL STACK FOR MOBILE */
   .gallery-section {
+    background: #27301B !important;
     padding: 40px 0 60px 0;
     overflow-x: hidden;
   }
