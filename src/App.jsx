@@ -736,7 +736,10 @@ function App() {
 
             <div className="gal-wrapper gal-2">
               <div className="gal-item">
-                <img src="/gal-2.jfif" alt="Gallery 2" />
+                <picture>
+                  <source media="(min-width: 900px)" srcSet="/gal-2.2.png" />
+                  <img src="/gal-2.png" alt="Gallery 2" />
+                </picture>
               </div>
               <div className="gal-caption-under">
                 <h4>Court Vision</h4>
